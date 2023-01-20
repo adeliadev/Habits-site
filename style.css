@@ -59,11 +59,27 @@ button {
   width: 64px;
   height: 64px;
 
-  font-size: 32px;
+  font-family: "Roboto Mono";
+  font-size: 25px;
 
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.habit-names {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.habit-names::before {
+  content: "";
+  display: flex;
+  width: 10px;
+  height: 5px;
+  background-color: #8b5cf6;
+  margin: 10px;
 }
 
 .days {
